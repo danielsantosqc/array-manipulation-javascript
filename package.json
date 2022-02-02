@@ -1,0 +1,19 @@
+{
+  "name": "foreach",
+  "version": "1.0.0",
+  "description": "manipulando arrays con foreach",
+  "main": "/server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielsantosqc/array-manipulation-javascript.git"
+  },
+  "author": "daniel quispe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielsantosqc/array-manipulation-javascript/issues"
+  },
+  "homepage": "https://github.com/danielsantosqc/array-manipulation-javascript#readme"
+}
