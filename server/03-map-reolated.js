@@ -20,3 +20,19 @@ const orders = [
     delivered: true,
   },
 ];
+console.log('origina', orders);
+
+const newArray = orders.map(item => item.total);
+console.log('new Arrayy', newArray);
+
+const newArray2 = orders.map(item => {
+  // item.tax = .10;
+  // return item;
+  return {
+    ...item,
+    tax: .10,
+  };
+});
+console.log('origina', orders);
+
+console.log('new Arrayy2', newArray2);
