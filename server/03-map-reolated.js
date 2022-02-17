@@ -18,4 +18,5 @@ const orders = [
     customerName: "Valentina",
     total: 240,
     delivered: true,
-  }, 
+  },
+];

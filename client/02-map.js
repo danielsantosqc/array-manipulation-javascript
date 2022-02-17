@@ -2,8 +2,8 @@ let lista = document.getElementById("lista");
 
 const cositas = ['👻','👽','😎','🦖'];
 
-const array = cositas.map(item => {
+const newArray = cositas.map(item => {
     return  `<li>${item}</li>`;
   }
 );
-lista.innerHTML = array.join('');
+lista.innerHTML = newArray.join('');
