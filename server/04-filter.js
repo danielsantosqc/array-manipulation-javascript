@@ -45,3 +45,12 @@ const orders = [
 const newArray2 = orders.filter(item => item.delivered && item.total > 100);
 console.log('original',orders);
 console.log('newArray' ,newArray2);
+
+// -----------------------
+const search = (query) => {
+  return orders.filter(item => {
+    return item.customerName.includes(query);
+  });
+}
+console.log('search');
+console.log(search("ina"));
