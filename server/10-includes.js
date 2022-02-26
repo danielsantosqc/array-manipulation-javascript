@@ -9,9 +9,9 @@ for (let index = 0; index < pets.length; index++) {
         break;
     }
 }
+console.log('for', includeInArray);
 
-const rta = pets.includes('dogi')
 
 // con includes 
-console.log('for', includeInArray);
+const rta = pets.includes('dogi')
 console.log('includes', rta);
