@@ -3,7 +3,6 @@ const matriz = [
   [4,5,6, [6.1, 6.2, [6.21, 6.22]]],
   [7,8,9]
 ];
-
 // with for 
 const newArray = [];
 for (let i = 0; i < matriz.length; i++) {
@@ -13,11 +12,11 @@ for (let i = 0; i < matriz.length; i++) {
       newArray.push(element);
   }
 }
-console.log('for', newArray);
+console.log('for:', newArray);
 
 // with flat method 
 const rta = matriz.flat(3);
-console.log('flat', rta);
+console.log('flat:', rta);
 
 // with recursive function 
 function flattenMatrix (matrix){
@@ -31,7 +30,6 @@ function flattenMatrix (matrix){
   }
   return flatArray;
 }
-
 console.log('function:', flattenMatrix(matriz));
 
 
