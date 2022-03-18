@@ -26,6 +26,7 @@ const newArray = orders.map(item => item.total);
 console.log('new Arrayy', newArray);
 
 const newArray2 = orders.map(item => {
+  // map es mutable al usarse en objetos
   // item.tax = .10;
   // return item;
   return {

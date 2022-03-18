@@ -35,3 +35,7 @@ const orders = [
   ];
   orders.sort((a,b) => a.total - b.total);
   console.log(orders);
+
+const array = ['a', 'bb', 'ccc']; 
+const rta = array.map(item => item.length);
+console.log('::', rta);
